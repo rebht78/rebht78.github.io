@@ -2,6 +2,9 @@
     background-color: #2196F3; 
     color: #ffffff;
 }
+.left {
+        margin-top: 4em;
+    }
 .bg-grey
 {
 	 background-color: #f6f6f6;
@@ -18,27 +21,52 @@ body
 {
 	margin-top:70px;
 }
-.navbar {
-    margin-bottom: 0;
-    background-color: #2196F3;
-    z-index: 9999;
-    border: 0;
-    font-size: 12px !important;
-    line-height: 1.42857143 !important;
-    letter-spacing: 4px;
-    border-radius: 0;
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: black; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
-.navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
 }
 
-.navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #f4511e !important;
-    background-color: #fff !important;
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
 }
 
-.navbar-default .navbar-toggle {
-    border-color: transparent;
-    color: #fff !important;
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 10px;
+    background-color: white;
+    right: 25px;
+    font-size: 36px;
+    color:black;
+    margin-left: 50px;
+}
+
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }

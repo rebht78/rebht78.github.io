@@ -4,55 +4,44 @@
 	<title>Sohel Shaikh</title>
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style/flexslider.css">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
-	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
-			<div class="navbar-header">
-				<a href="index.html" class="navbar-brand">Sohel Shaikh</a>
+			<div id="mySidenav" class="sidenav">
+  				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				 <a href="#">Home</a>
+				 <a href="#">About</a>
+				 <a href="#">Skills</a>
+				 <a href="#">Portfolio</a>
+				 <a href="#">Education</a>
+				 <a href="#">Experience</a>
+				 <a href="#">Technical Skills</a>
+				 <a href="#">Contact Me</a>
 			</div>
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#">About Me</a></li>
-				<li><a href="#">My Work</a></li>
-				<li><a href="#">My System</a></li>
-				<li><a href="#">Connect</a></li>
-			</ul>
 		</div>		
-	</nav>
+	<div id="main">
+		<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="navbar-header">
+				<a href="#" class="navbar-brand" onclick="openNav()"> &#9776; Me</a>
+			</div>
+		</nav>	
 	<div class="container">
 		<div class="jumbotron">
 			<h1>Hi, I'm Sohel Shaikh.</h1>
-			<p>Web Developer, Educator and a WWE Enthusiast</p>
+			<p>A Web Developer, An Educator and A WWE Enthusiast</p>
 		</div>
 		<div class="row">
-			<div class="col-md-8 col-sm-8 bg-grey">
-				<h1>About Me</h1>
-				<p>I'm Web Developer, JavaScript Programmer and an Educator who is passionate about helping people &quot;Programming&quot;. Most of my early years have been spent in teaching Mathematics to High School Students.</p>
-			</div>
+			About Me
 		</div>
-		<div class="container-fluid bg-content text-center">
-  			<h3>Here's what I've done so far</h3>
- 		 	<div class="row">
-    			<div class="col-sm-4">
-    				<div class="thumbnail">
-    					<img src="assets/niit.png" alt="Image of NIIT">	
-    				</div>
-      				<p>Group Leader</p>
-     				 
-    			</div>
-		    <div class="col-sm-4">
-		      <p>Lorem ipsum..</p>
-		      <img src="birds2.jpg" alt="Image">
-		    </div>
-		    <div class="col-sm-4">
-		      <p>Lorem ipsum..</p>
-		      <img src="birds3.jpg" alt="Image">
-		    </div>
-  		</div>
-		</div>
+	</div>		
 	</div>
+	
+	
+		
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script type="text/javascript" src="script/script.js"></script>
 </body>
 </html>

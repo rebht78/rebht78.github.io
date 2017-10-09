@@ -83,7 +83,7 @@ strong {
 }
 
 .typewriter p {
-	width: 67%;
+	width: 67.2%;
 	text-align: center;
   overflow: hidden; 
   border-right: .15em solid black; /* The typwriter cursor */
@@ -98,7 +98,7 @@ strong {
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 67% }
+  to { width: 67.2% }
 }
 
 /* The typewriter cursor effect */

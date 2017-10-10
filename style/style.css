@@ -19,7 +19,7 @@ body
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.education, .about, .skills, .experience
+.education, .about, .skills, .experience, .portfolio
 {
 	padding: 4em 0;
 }
@@ -66,6 +66,11 @@ strong {
 	color: #272727;
 	margin-top: 1em;
 	font-size: 20px;
+}
+.icon {
+    font-size: 36px;
+    color: #2dde98;
+    padding-right: .5em;
 }
 .heading
 {

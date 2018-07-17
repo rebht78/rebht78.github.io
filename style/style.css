@@ -1,4 +1,29 @@
-.menuoption
+html
+{
+	font-family: Georgia, serif;
+}
+.menulink
 {
 	text-transform: lowercase;
+}
+.jumbotron
+{
+	background-color: white;
+	color:gray;
+	padding-left:5em !important;
+	padding-right: 2em !important;
+}
+h2
+{
+	line-height: 1em;
+	margin-bottom: 1em;
+}
+/*
+Only for Desktop, these styles will apply
+*/
+@media only screen and (min-width: 768px) {
+	li a:hover
+	{
+		border-bottom: 2px solid red;
+	}
 }

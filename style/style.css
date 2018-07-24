@@ -1,6 +1,7 @@
 html
 {
 	font-family: Georgia, serif;
+	color:gray;
 }
 .menulink
 {
@@ -9,7 +10,6 @@ html
 .jumbotron
 {
 	background-color: white;
-	color:gray;
 	padding-left:5em !important;
 	padding-right: 2em !important;
 }

@@ -39,3 +39,12 @@ Only for Desktop, these styles will apply
 	padding-left:5em;	
 	color:gray;
 }
+.about
+{
+	padding-left: 5em;
+	background-color: #f6f6f6;
+}
+.logo-skills {
+    color: #f4511e;
+    font-size: 50px;
+}

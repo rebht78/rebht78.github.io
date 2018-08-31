@@ -1,10 +1,14 @@
 html
 {
-	font-family: Georgia, serif;
+	font-family: sans-serif, serif;
 }
 .menulink
 {
 	text-transform: lowercase;
+}
+.description
+{
+	text-align: justify;
 }
 .jumbotron
 {

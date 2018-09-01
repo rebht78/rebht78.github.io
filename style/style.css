@@ -12,10 +12,12 @@ html
 }
 .jumbotron
 {
-	background-color: white;
-	color:gray;
-	padding-left:5em !important;
-	padding-right: 2em !important;
+	background-color: #f4511e;
+	color:white;
+}
+.btnjumbo
+{
+	margin-top:15px;
 }
 h2
 {

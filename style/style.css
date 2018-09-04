@@ -2,18 +2,18 @@ html
 {
 	font-family: sans-serif, serif;
 }
+.container-fluid
+{
+	padding: 60px 50px;
+}
 .menulink
 {
 	text-transform: lowercase;
 }
-.description
-{
-	text-align: justify;
-}
-.jumbotron
-{
-	background-color: #f4511e;
-	color:white;
+.jumbotron {
+    background-color: #f4511e;
+    color: #fff;
+    padding: 100px 25px;
 }
 .btnjumbo
 {
@@ -39,11 +39,6 @@ Only for Desktop, these styles will apply
 	font-size:2em;
 	margin-left:5px;
 	padding-left:1px;
-}
-.section
-{
-	padding-left: 5em;
-	background-color: #f6f6f6;
 }
 .logo-skills {
     color: #f4511e;

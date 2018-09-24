@@ -18,6 +18,10 @@ header
     height: 100vh;
     background-attachment: fixed;
 }
+section
+{
+	margin-top:15px;
+}
 /* Navigation Menus */
 .main-nav
 {
@@ -59,7 +63,24 @@ h1
 	font-size:240%;
 	font-weight: 800;
 	margin-bottom:15px;
+	line-height: 130%;
 	color:white;
+}
+h2
+{
+	font-size:160%;
+	margin-bottom:5px;
+	color:#000;
+	text-align: center;
+}
+h2::after
+{
+	content:" ";
+	border-bottom: 2px solid #E67E22;
+	display: block;
+	width:100px;
+	padding-bottom: 5px;
+	margin:0 auto;
 }
 /* Button Components */
 .btn:link, .btn:visited
@@ -71,4 +92,15 @@ h1
 	font-weight: 300;
 	border-radius: 200px;
 	border:2px solid #E67E22;
+}
+/* Components */
+.row 
+{
+	margin:0 auto;
+}
+/* Paragraphs */
+.description
+{
+	text-align: center;
+	line-height: 130%;
 }

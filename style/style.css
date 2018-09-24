@@ -93,6 +93,21 @@ h2::after
 	border-radius: 200px;
 	border:2px solid #E67E22;
 }
+.btn-show-portfolio:link,
+.btn-show-portfolio:visited
+{
+	background-color:#E67E22;
+	position: relative;
+}
+
+.btn-show-portfolio:hover
+{
+	padding-top:8px;
+}
+.btn-show-portfolio:active
+{
+	padding-top:6px;
+}
 /* Components */
 .row 
 {

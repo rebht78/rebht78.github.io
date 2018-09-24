@@ -36,6 +36,7 @@ header
 	color:white;
 	font-size:110%;
 	padding:8px 0;
+	margin-right:15px;
 	transition:border-bottom 0.2s;
 	-webkit-transition:border-bottom 0.2s;
 	text-transform: uppercase;

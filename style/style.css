@@ -20,7 +20,10 @@ header
 }
 section
 {
-	margin-top:15px;
+    padding-top:40px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 /* Navigation Menus */
 .main-nav
@@ -109,13 +112,17 @@ h2::after
 	padding-top:6px;
 }
 /* Components */
-.row 
+.row
 {
-	margin:0 auto;
+    max-width: 1140px;
+    margin:0 auto;
 }
 /* Paragraphs */
 .description
 {
-	text-align: center;
-	line-height: 130%;
+	text-align: justify;
+	line-height: 145%;
+	width:70%;
+	margin-left:15%;
+	margin-right:15%;
 }
